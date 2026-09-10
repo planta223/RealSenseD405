@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: realsense-d405
+Version: 0.1.0
+Summary: Standalone Intel RealSense D405 RGB-D acquisition package
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Provides-Extra: test
+Provides-Extra: tools
+
+UNKNOWN
+

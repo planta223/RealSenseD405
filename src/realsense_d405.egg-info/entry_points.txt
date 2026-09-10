@@ -1,0 +1,5 @@
+[console_scripts]
+d405-capture = realsense_d405.tools.capture_rgbd:main
+d405-inspect = realsense_d405.tools.inspect_camera:main
+d405-record = realsense_d405.tools.record_rgbd:main
+

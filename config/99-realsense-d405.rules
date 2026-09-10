@@ -1,0 +1,6 @@
+# Intel RealSense D405 (8086:0b5b)
+#
+# This is the D405 entry from librealsense's official
+# config/99-realsense-libusb.rules. Keep the rule device-specific so this
+# package does not change permissions for unrelated USB hardware.
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="8086", ATTRS{idProduct}=="0b5b", MODE:="0666", GROUP:="plugdev"
